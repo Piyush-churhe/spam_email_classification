@@ -30,9 +30,9 @@ Install them using:
 pip install pandas numpy scikit-learn kagglehub
 
 **Models Used :**
-Naive Bayes (Best performance in many spam filtering tasks)
-Logistic Regression
-Random Forest
+1. Naive Bayes (Best performance in many spam filtering tasks)
+2. Logistic Regression
+3. Random Forest
 
 **How to Run (VS Code) :**
 1. Clone the Repository
@@ -49,17 +49,17 @@ python spam_email_classifier.py
 After training, the model will save as best_spam_classifier.pkl. You can test new emails by modifying the test block inside the script.
 
 **Example Output :**
-Email: Congratulations! You won a FREE iPhone!
+1. Email: Congratulations! You won a FREE iPhone!
 Prediction: SPAM (Confidence: 98.7%)
 
-Email: Let's meet for lunch at 1 PM today.
+2. Email: Let's meet for lunch at 1 PM today.
 Prediction: HAM (Confidence: 95.4%)
 
 **Future Improvements :**
-Add GUI or web interface
-Integrate email fetching from inbox
-Use deep learning models (LSTM, BERT)
-Add visual performance metrics (ROC curves)
+1. Add GUI or web interface
+2. Integrate email fetching from inbox
+3. Use deep learning models (LSTM, BERT)
+4. Add visual performance metrics (ROC curves)
 
 
 
